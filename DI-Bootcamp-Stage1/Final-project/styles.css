@@ -1,0 +1,130 @@
+:root {
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0%; 
+   font-size: 10px;
+
+   --text: #333;
+   --newsletter-back: #575989;
+   --accent: #2c64f5;
+   --footer: #07043b;
+   --links: #b7b7d5;
+
+   --p-regular: 2rem;
+   --p-small: 1.8rem;
+
+   font-family: 'Fira Sans', sans-serif;
+}
+
+/* General Styles */
+/* General Styles */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    
+
+}
+
+.header-container {
+    margin-top: 5rem;
+}
+.hero-container {
+    margin-top: 8rem;
+   
+}
+
+#hero {
+    margin-bottom: 10rem;
+}
+.left {
+    width: 45%;
+}
+
+.start {
+    align-self: flex-start;
+    margin: 0%;
+    margin-top: 7rem;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.navbar-list a{
+    text-decoration: none;
+    color: var(--text);
+}
+.navbar-list-items {
+    display: inline;
+    padding: 3rem;
+    font-size: 1.8rem;
+
+}
+
+.title {
+
+    margin: 0%;
+    font-size: 4.3rem;
+    line-height: 6rem;
+  
+}
+.ilustration {
+    max-width: 100%;
+}
+
+.ilustration2 {
+    max-width: 70%;
+}
+
+.p-regular {
+    font-size: var(--p-small);
+    line-height: 2.4rem;
+}
+
+.p-big {
+    font-size: var(--p-regular);
+    text-align: justify;
+    padding-right: 4rem;
+    font-weight: 300;
+    /* margin-top: 2rem; */
+}
+
+.her-submit {
+    width: 100%;
+}
+
+.input {
+    width: 55%;
+    padding: 1.4rem 0;
+    border: 1px solid #333;
+    border-radius: 2px;
+    
+}
+
+input::placeholder {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+
+/* Buttons */
+/* Buttons */
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--accent);
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 1.4rem 7rem;
+    margin-left: 1.5rem;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
